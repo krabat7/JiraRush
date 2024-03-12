@@ -2,8 +2,6 @@ package com.javarush.jira.profile.internal.web;
 
 import com.javarush.jira.AbstractControllerTest;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.javarush.jira.AbstractControllerTest;
-import com.javarush.jira.profile.ProfileTo;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
