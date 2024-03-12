@@ -61,7 +61,7 @@ delete
 from ATTACHMENT;
 alter
 sequence ATTACHMENT_ID_SEQ restart with 1;
-insert into ATTACHMENT (name, file_link, object_id, object_type, user_id, date_time)
+insert into ATTACHMENT (name, file_l=ink, object_id, object_type, user_id, date_time)
 values ('Снимок экрана 1.png', './attachments/project/1_Снимок экрана 1.png', 2, 0, 4, '2023-05-04 22:28:50.215429'),
        ('Снимок экрана 2.png', './attachments/project/2_Снимок экрана 2.png', 2, 0, 4, '2023-05-04 22:28:53.687600'),
        ('Ежедневный-чеклист.xlsx', './attachments/project/3_Ежедневный-чеклист.xlsx', 2, 0, 4,
